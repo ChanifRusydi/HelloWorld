@@ -7,12 +7,7 @@
  */
 
 import React from 'react';
-<<<<<<< Updated upstream
 import type {Node} from 'react';
-=======
-//import type {Node} from 'react';
-import {AppHeader, AppContent} from './AppCustomComponent';
->>>>>>> Stashed changes
 import {
   SafeAreaView,
   ScrollView,
@@ -31,7 +26,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-<<<<<<< Updated upstream
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
@@ -116,14 +110,3 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-=======
-const HelloWorldApp = () => {
-  return (
-    <View>
-      <AppHeader />
-      <AppContent />
-    </View>
-  );
-};
-export default HelloWorldApp;
->>>>>>> Stashed changes
