@@ -4,7 +4,7 @@ export default StyleSheet.create({
     {
         fontWeight :'bold',fontSize:32
     },
-    container:(
+    container:{
         flex:1, justifyContent:"center", alignItems:"center"
-    )
+    }
 })
